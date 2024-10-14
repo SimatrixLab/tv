@@ -12,7 +12,7 @@ async def fetch_url(url):
         return f"An error occurred: {e}"
 
 async def main():
-    url = "http://10.99.99.99/player.php?stream=bk/4"
+    url = "https://en.prothomalo.com/bangladesh/city/zwk8jf2t81"
     fetched_url = await fetch_url(url)
 
     # Save the fetched URL or error message to output.txt
