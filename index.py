@@ -13,7 +13,7 @@ if __name__ == "__main__":
     fetched_url = fetch_url(url)
 
     # Save the fetched URL to a text file
-    with open("fetched_url.txt", "w") as file:
+    with open("output.txt", "w") as file:
         file.write(f"Fetched URL: {fetched_url}\n")
 
     print("Fetched URL saved to fetched_url.txt")
